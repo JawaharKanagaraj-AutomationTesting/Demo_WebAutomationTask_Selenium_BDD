@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<div "result">user logs into the automationpractice website (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user inputs the valid email and password (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters the home automationpractice page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user lands on my order page (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user selects a T-shirt (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user proceeds to checkout by passing summary,address,shipping and payment screens (PASSED : 3s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">Now User Clicks the Confirm Button (PASSED : 1s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">order is successfully placed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user logs out from store (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user logs into the automationpractice website (PASSED : 4s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user inputs the valid email and password (PASSED : 2s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user enters the home automationpractice page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user lands on personal information page (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user updates the last name value (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user save the changes (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">value is successfully changed (PASSED : 0s)</div>]]>
+    </line>
+    <line>
+      <![CDATA[<div "result">user logs out from store (PASSED : 1s)</div>]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2021-03-21T03:34:30Z" name="Surefire suite" finished-at="2021-03-21T03:35:00Z" duration-ms="29981">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.jawahar.runner.CucumberTest@48a242ce]" name="runScenario" class="cucumber.api.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2021-03-21T03:34:30Z" name="Surefire test" finished-at="2021-03-21T03:35:00Z" duration-ms="29981">
+      <class name="com.test.jawahar.runner.CucumberTest">
+        <test-method is-config="true" signature="setUpClass()[pri:0, instance:com.test.jawahar.runner.CucumberTest@48a242ce]" started-at="2021-03-21T03:34:30Z" name="setUpClass" finished-at="2021-03-21T03:34:30Z" duration-ms="88" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.jawahar.runner.CucumberTest@48a242ce]" started-at="2021-03-21T03:34:30Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-21T03:34:49Z" duration-ms="18604" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User orders T-shirt"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["WebAutomationTask - Order T-Shirt and Update personal info on sample website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user logs into the automationpractice website (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user inputs the valid email and password (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters the home automationpractice page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user lands on my order page (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user selects a T-shirt (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user proceeds to checkout by passing summary,address,shipping and payment screens (PASSED : 3s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">Now User Clicks the Confirm Button (PASSED : 1s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">order is successfully placed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user logs out from store (PASSED : 2s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(cucumber.api.testng.PickleEventWrapper, cucumber.api.testng.CucumberFeatureWrapper)[pri:0, instance:com.test.jawahar.runner.CucumberTest@48a242ce]" started-at="2021-03-21T03:34:49Z" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-21T03:35:00Z" duration-ms="11155" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["User change/updates the personal info"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["WebAutomationTask - Order T-Shirt and Update personal info on sample website"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<div "result">user logs into the automationpractice website (PASSED : 4s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user inputs the valid email and password (PASSED : 2s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user enters the home automationpractice page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user lands on personal information page (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user updates the last name value (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user save the changes (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">value is successfully changed (PASSED : 0s)</div>]]>
+            </line>
+            <line>
+              <![CDATA[<div "result">user logs out from store (PASSED : 1s)</div>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.test.jawahar.runner.CucumberTest@48a242ce]" started-at="2021-03-21T03:35:00Z" name="tearDownClass" finished-at="2021-03-21T03:35:00Z" duration-ms="65" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.test.jawahar.runner.CucumberTest -->
+    </test> <!-- Surefire test -->
+  </suite> <!-- Surefire suite -->
+</testng-results>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.751119">
+    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User orders T-shirt" time="18.5977">
+        <system-out><![CDATA[Given user logs into the automationpractice website.........................passed
+When user inputs the valid email and password...............................passed
+Then user enters the home automationpractice page...........................passed
+Given user lands on my order page...........................................passed
+When user selects a T-shirt.................................................passed
+And user proceeds to checkout by passing summary,address,shipping and payment screens.passed
+Then Now User Clicks the Confirm Button.....................................passed
+And order is successfully placed............................................passed
+And user logs out from store................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User change/updates the personal info" time="11.153419">
+        <system-out><![CDATA[Given user logs into the automationpractice website.........................passed
+When user inputs the valid email and password...............................passed
+Then user enters the home automationpractice page...........................passed
+Given user lands on personal information page...............................passed
+And user updates the last name value........................................passed
+When user save the changes..................................................passed
+Then value is successfully changed..........................................passed
+And user logs out from store................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>

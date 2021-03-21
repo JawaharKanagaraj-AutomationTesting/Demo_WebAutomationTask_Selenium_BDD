@@ -1,0 +1,254 @@
+<!DOCTYPE html>
+<html>
+<head>
+  
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/jquery.tablesorter.min.js"></script>
+<script type="text/javascript" src="js/Chart.min.js"></script>
+<script type="text/javascript" src="js/moment.min.js"></script>
+<script type="text/javascript" src="js/bootstrap.min.js"></script>
+
+<link rel="stylesheet" href="css/bootstrap.min.css" type="text/css"/>
+<link rel="stylesheet" href="css/cucumber.css" type="text/css"/>
+<link rel="stylesheet" href="css/font-awesome.min.css"/>
+<link rel="shortcut icon" href="images/favicon.png"/>
+
+<script type="text/javascript">
+$(document).ready(function() {
+    // this will tell tablesorter to try looking for the data-value attribute
+    // if present, it'll sort by that instead
+    // otherwise, it'll sort by the text content of the table cell
+    $("#tablesorter").tablesorter({
+        textAttribute: 'data-value',
+        // ignores the first row of the header, the 'scenario', 'steps', since
+        // sorting those doesn't make sense
+        selectorHeaders: '> thead tr:not(.dont-sort) th',
+        // use a stable sort
+        sortStable: true
+    });
+});
+</script>
+
+
+
+
+
+
+
+
+
+
+
+  
+<title>Cucumber Reports (no 1) - Steps Overview</title>
+
+</head>
+<body>
+
+<nav class="navbar navbar-default navbar-fixed-top" id="navigation">
+  <div class="container-fluid">
+    <div class="collapse navbar-collapse">
+      <p class="navbar-text navbar-left">Cucumber Report</p>
+      <ul class="nav navbar-nav navbar-right">
+                <li role="presentation" ><a href="overview-features.html">Features</a></li>
+        <li role="presentation" ><a href="overview-tags.html">Tags</a></li>
+        <li role="presentation"     class="active" ><a href="overview-steps.html">Steps</a></li>
+                <li role="presentation" ><a href="overview-failures.html">Failures</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<div class="container-fluid">
+  <div class="col-md-5 col-md-offset-1">
+    
+<table class="table table-bordered" id="build-info">
+  <thead>
+    <tr>
+      <th>Project</th>
+              <th>Number</th>
+            <th>Date</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr class="info">
+      <td>Demo-WebAutomationTask</td>
+              <td>1</td>
+            <td>21 Mar 2021, 03:35</td>
+    </tr>
+  </tbody>
+</table>
+
+  </div>
+  <div class="col-md-3 col-md-offset-2">
+      </div>
+</div>
+
+
+<div id="report-lead" class="container-fluid">
+  <div class="col-md-10 col-md-offset-1">
+    <h2>Steps Statistics</h2>
+          <p>The following graph shows step statistics for this build. Below list is based on results.
+ step does not provide information about result then is not listed below.
+ Additionally @Before and @After are not counted because they are part of the scenarios, not steps.</p>
+      </div>
+</div>
+
+<div class="container-fluid" id="report">
+  <div class="row">
+    <div class="col-md-10 col-md-offset-1">
+      <table id="tablesorter" class="stats-table table-hover">
+
+        <thead>
+          <tr class="header">
+            <th>Implementation</th>
+            <th>Occurrences</th>
+            <th>Average duration</th>
+            <th>Max duration</th>
+            <th>Total durations</th>
+            <th>Ratio</th>
+          </tr>
+        </thead>
+
+        <tbody>
+                      <tr>
+              <td class="location">StepDefine.nowUserClicksTheConfirmButton()</td>
+              <td>1</td>
+              <td class="duration" data-value="1333527326">1.333</td>
+              <td class="duration" data-value="1333527326">1.333</td>
+              <td class="duration" data-value="1333527326">1.333</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.orderIsSuccessfullyPlaced()</td>
+              <td>1</td>
+              <td class="duration" data-value="6617681">0.006</td>
+              <td class="duration" data-value="6617681">0.006</td>
+              <td class="duration" data-value="6617681">0.006</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userClicksOnTShirtTab()</td>
+              <td>1</td>
+              <td class="duration" data-value="1194092607">1.194</td>
+              <td class="duration" data-value="1194092607">1.194</td>
+              <td class="duration" data-value="1194092607">1.194</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userEntersTheHomeAutomationpracticePage()</td>
+              <td>2</td>
+              <td class="duration" data-value="5840507">0.005</td>
+              <td class="duration" data-value="5840507">0.008</td>
+              <td class="duration" data-value="11681015">0.011</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userInputsTheValidEmailAndPassword()</td>
+              <td>2</td>
+              <td class="duration" data-value="3040799081">3.040</td>
+              <td class="duration" data-value="3040799081">3.286</td>
+              <td class="duration" data-value="6081598163">6.081</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userLandsOnPersonalInformationPage()</td>
+              <td>1</td>
+              <td class="duration" data-value="918562695">0.918</td>
+              <td class="duration" data-value="918562695">0.918</td>
+              <td class="duration" data-value="918562695">0.918</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userLogsOutFromStore()</td>
+              <td>2</td>
+              <td class="duration" data-value="2111844031">2.111</td>
+              <td class="duration" data-value="2111844031">2.327</td>
+              <td class="duration" data-value="4223688062">4.223</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userProceedsToCheckoutByPassingSummaryAddressShippingAndPaymentScreens()</td>
+              <td>1</td>
+              <td class="duration" data-value="3529830454">3.529</td>
+              <td class="duration" data-value="3529830454">3.529</td>
+              <td class="duration" data-value="3529830454">3.529</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userSaveTheChanges()</td>
+              <td>1</td>
+              <td class="duration" data-value="720589908">0.720</td>
+              <td class="duration" data-value="720589908">0.720</td>
+              <td class="duration" data-value="720589908">0.720</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userSelectsATShirt()</td>
+              <td>1</td>
+              <td class="duration" data-value="2074410878">2.074</td>
+              <td class="duration" data-value="2074410878">2.074</td>
+              <td class="duration" data-value="2074410878">2.074</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userUpdatesTheLastNameValue()</td>
+              <td>1</td>
+              <td class="duration" data-value="169236431">0.169</td>
+              <td class="duration" data-value="169236431">0.169</td>
+              <td class="duration" data-value="169236431">0.169</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.userlogsIntoTheAutomationpracticeWebsite()</td>
+              <td>2</td>
+              <td class="duration" data-value="4724302214">4.724</td>
+              <td class="duration" data-value="4724302214">4.827</td>
+              <td class="duration" data-value="9448604429">9.448</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                      <tr>
+              <td class="location">StepDefine.valueIsSuccessfullyChanged()</td>
+              <td>1</td>
+              <td class="duration" data-value="24981380">0.024</td>
+              <td class="duration" data-value="24981380">0.024</td>
+              <td class="duration" data-value="24981380">0.024</td>
+              <td class="passed">100.00%</td>
+            </tr>
+                  </tbody>
+
+        <tfoot class="total">
+          <tr>
+            <td>13</td>
+            <td>17</td>
+            <td class="duration">1.749</td>
+            <td class="duration">9.448</td>
+            <td class="duration">29.737</td>
+            <td>Totals</td>
+          </tr>
+        </tfoot>
+
+      </table>
+    </div>
+  </div>
+</div>
+
+
+<nav class="navbar navbar-default" id="footer">
+  <div class="container-fluid">
+    <p class="navbar-text navbar-right">
+        <small>generate Cucumber HTML reports via:&nbsp;</small>
+        <a class="navbar-link" href="https://github.com/jenkinsci/cucumber-reports-plugin">Jenkins Plugin</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-reporting">Standalone</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/cucumber-sandwich">Sandwich</a> |
+        <a class="navbar-link" href="https://github.com/damianszczepanik/maven-cucumber-reporting">Maven</a>
+        &nbsp;&nbsp;
+    </p>
+  </div>
+</nav>
+
+</body>
+</html>
