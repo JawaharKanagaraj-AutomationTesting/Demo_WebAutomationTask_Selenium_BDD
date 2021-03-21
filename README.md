@@ -8,7 +8,7 @@ WebAutomation_Simple_Tests (BDD framework for automation using Selenium Cucumber
 1. simply checkout or clone this project from github
 2. build the project
 3. go to run configuration and run by testNG, below screenshot for ref
-![img_2.png](img_2.png)
+![img_2.png](https://github.com/JawaharKanagaraj-AutomationTesting/Demo_WebAutomationTask_Selenium_BDD/blob/master/src/test/resources/resultimage/Screenshot%202021-03-21%20at%2003.55.11.png)
 
 
 ### To see this whole thing running simply checkout this project and run this command:
@@ -19,10 +19,10 @@ WebAutomation_Simple_Tests (BDD framework for automation using Selenium Cucumber
 ### Cucumber Report
 
 There is a feature overview page:
-![img_1.png](img_1.png)
+![feature overview page](https://github.com/JawaharKanagaraj-AutomationTesting/Demo_WebAutomationTask_Selenium_BDD/blob/master/src/test/resources/resultimage/Screenshot%202021-03-21%20at%2004.04.16.png)
 
 And there are also feature specific results pages:
-![img.png](img.png)
+![feature_detailed_page](https://github.com/JawaharKanagaraj-AutomationTesting/Demo_WebAutomationTask_Selenium_BDD/blob/master/src/test/resources/resultimage/Screenshot%202021-03-21%20at%2004.04.47.png)
 
 
 ### Framework enhancement - To do
