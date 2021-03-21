@@ -1,7 +1,7 @@
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd" >
-<suite name="Android Simulator Suite" verbose="10">
+<suite name="Regression Suite" verbose="10">
 
-    <test name="Android Simulator Script Development and Execution">
+    <test name="Web Tests Execution">
         <classes>
             <class name="com.test.jawahar.runner.CucumberTest"/>
         </classes>
