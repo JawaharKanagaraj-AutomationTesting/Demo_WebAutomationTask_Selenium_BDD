@@ -10,6 +10,8 @@ import org.openqa.selenium.support.PageFactory;
 public class SignInPage extends Base {
 
     WebDriver driver;
+    public static String EmailAddress = System.getProperty("EmailAddress");
+    public static String Password = System.getProperty("Password");
 
     public SignInPage(WebDriver driver) {
         this.driver = driver;
@@ -39,7 +41,7 @@ public class SignInPage extends Base {
 
     public void Login() {
         try {
-            Email.sendKeys(Prop.getProperty("emailaddress"));
+            Email.sendKeys(EmailAddress);
         } catch (Exception e) {
             e.printStackTrace();
         }
@@ -47,7 +49,7 @@ public class SignInPage extends Base {
 
     public void password() {
         try {
-            password.sendKeys(Prop.getProperty("password"));
+            password.sendKeys(Password);
         } catch (Exception e) {
             e.printStackTrace();
         }

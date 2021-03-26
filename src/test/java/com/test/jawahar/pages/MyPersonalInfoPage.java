@@ -11,6 +11,7 @@ import org.openqa.selenium.support.PageFactory;
 public class MyPersonalInfoPage  extends Base {
 
     WebDriver driver;
+    public static String Password = System.getProperty("Password");
 
     public MyPersonalInfoPage(WebDriver driver) {
 
@@ -51,7 +52,7 @@ public class MyPersonalInfoPage  extends Base {
     }
     public void currentpassword() {
         try {
-            currentpassword.sendKeys(Prop.getProperty("password"));
+            currentpassword.sendKeys(Password);
         } catch (Exception e) {
             e.printStackTrace();
         }

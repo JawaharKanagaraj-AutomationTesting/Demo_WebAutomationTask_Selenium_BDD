@@ -13,6 +13,7 @@ public class Base {
 
     public static WebDriver driver;
     public static Properties Prop;
+    public static String browser = System.getProperty("browser");
 
     public Base() {
         try {
@@ -27,11 +28,10 @@ public class Base {
     }
 
     public static void initialization() {
-        String browserName = Prop.getProperty("browser");
-        if (browserName.equals("chrome")) {
+        if (browser.equals("chrome")) {
             System.setProperty("webdriver.chrome.driver", "src/test/resources/drivers/mac/chromedriver");
             driver = new ChromeDriver();
-        } else if (browserName.equals("FF")) {
+        } else if (browser.equals("FF")) {
             System.out.println("Driver not found");
         }
         driver.manage().window().maximize();

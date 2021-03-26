@@ -8,13 +8,14 @@ WebAutomation_Simple_Tests (BDD framework for automation using Selenium Cucumber
 1. simply checkout or clone this project from github
 2. build the project
 3. go to run configuration and run by testNG, below screenshot for ref
+4. Add Run time environment variables -Dbrowser=chrome -DEmailAddress=youremail and -DPassword=12345
 ![img_2.png](https://github.com/JawaharKanagaraj-AutomationTesting/Demo_WebAutomationTask_Selenium_BDD/blob/master/src/test/resources/resultimage/img1.png)
 
 
 ### To see this whole thing running simply checkout this project and run this command:
 1. simply checkout or clone this project from github
 2. build the project
-3. `mvn clean verify`
+3. `mvn clean verify`-Dbrowser=chrome -DEmailAddress and -DPassword
 
 ### Cucumber Report
 

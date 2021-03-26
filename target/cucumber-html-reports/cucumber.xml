@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="29.751119">
-    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User orders T-shirt" time="18.5977">
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="2" time="75.874887">
+    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User orders T-shirt" time="47.058908">
         <system-out><![CDATA[Given user logs into the automationpractice website.........................passed
 When user inputs the valid email and password...............................passed
 Then user enters the home automationpractice page...........................passed
@@ -12,7 +12,7 @@ And order is successfully placed............................................pass
 And user logs out from store................................................passed
 ]]></system-out>
     </testcase>
-    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User change/updates the personal info" time="11.153419">
+    <testcase classname="WebAutomationTask - Order T-Shirt and Update personal info on sample website" name="User change/updates the personal info" time="28.815979">
         <system-out><![CDATA[Given user logs into the automationpractice website.........................passed
 When user inputs the valid email and password...............................passed
 Then user enters the home automationpractice page...........................passed
